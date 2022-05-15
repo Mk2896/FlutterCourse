@@ -1,3 +1,4 @@
+import 'package:assignment_5/Screen/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,44 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Login App',
-      theme: ThemeData(primarySwatch: Colors.green),
-      home: const MyHomePage(title: 'Login App'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
+      theme: ThemeData(
+        primarySwatch: Colors.green,
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[],
-        ),
-      ),
-      // bottomNavigationBar: BottomNavigationBar(
-      //   backgroundColor: Colors.pink,
-      //   items: [
-      //     BottomNavigationBarItem(
-      //         icon: Icon(Icons.ac_unit), label: "First Item"),
-      //     BottomNavigationBarItem(
-      //         icon: Icon(Icons.access_alarm), label: "Second Item"),
-      //   ],
-      // ),
+      home: Login(),
     );
   }
 }
