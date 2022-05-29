@@ -8,17 +8,22 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text(title),
-      //   leading: const Icon(Icons.whatsapp_rounded),
-      //   actions: const [
-      //     Icon(Icons.search),
-      //     Padding(
-      //       padding: EdgeInsets.only(left: 5),
-      //     ),
-      //     Icon(Icons.notification_add),
-      //   ],
-      // ),
+      appBar: AppBar(
+        title: Text(title),
+        leading: const Icon(Icons.whatsapp_rounded),
+        actions: const [
+          Icon(Icons.search),
+          Padding(
+            padding: EdgeInsets.only(left: 10),
+          ),
+          Icon(Icons.notification_add),
+          Padding(
+            padding: EdgeInsets.only(left: 10),
+          ),
+        ],
+      ),
+      
+      // Basic ListView
       // body: ListView(
       //   children: [
       //     ...listTiles(
