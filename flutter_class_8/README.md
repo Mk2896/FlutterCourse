@@ -12,7 +12,7 @@ A new Flutter project for Class 8.
     - To add with specific docs **FirebaseFirestore.instance.collection('collectionName').doc('docName').set(mapOfValues);**
     - To Read data use **FirebaseFirestore.instance.collection('collectionName').get();**
     - To Read data use from specific docs **FirebaseFirestore.instance.collection('collectionName').doc('docName').get();**
-    - To Delete data just do same as read but instead of get use delete.
+    - To Delete data just do same as read but instead of get use delete, **FirebaseFirestore.instance.collection('collectionName').doc('docName').delete();**
 
 - **FutureBuilder**
     - Same as Listview.builder the main difference is FutureBuilder is async and wait for data to come.
