@@ -1,6 +1,6 @@
 # flutter_class_9
 
-A new Flutter project for Class 89.
+A new Flutter project for Class 9.
 
 ## Class Content
 
