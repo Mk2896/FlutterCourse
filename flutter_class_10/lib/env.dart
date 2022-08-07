@@ -1,1 +1,1 @@
-const String baseUrl = "https://jsonplaceholder.typicode.com";
+const String baseUrl = "https://maaz-api.tga-edu.com/api";

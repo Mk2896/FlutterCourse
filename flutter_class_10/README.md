@@ -6,3 +6,4 @@ A new Flutter project for Class 10.
 
 - url_launcher package for opening any url from app
 - basic structure for working with api
+- Crud API

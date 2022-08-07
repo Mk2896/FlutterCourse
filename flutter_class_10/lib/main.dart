@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_class_10/screens/my_home_page.dart';
+import 'package:loader_overlay/loader_overlay.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +16,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Class 10',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blueGrey,
       ),
-      home: const MyHomePage(),
+      home: const LoaderOverlay(child: MyHomePage()),
     );
   }
 }
